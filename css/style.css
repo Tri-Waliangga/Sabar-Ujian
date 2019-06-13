@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-cal {
+  background: url(../img/aerial-photography-aerial-shot-aerial-view-2407636.jpg) fixed no-repeat center;
+  width: 100%;
+  height: 100vh;
+  transition: all .6s ease-in-out;
+}
+
+.content {
+  width: 18rem;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+}
+
+.text-content {
+  text-align: center;
+}
+.text-content h1, .text-content p {
+  margin: 1rem 0;
+}
+.text-content p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+}
+#jawaban {
+  font-size: 2rem;
+}
+
+.btn {
+  margin-top: 2em;
+  font-size: 1.2em;
+  width: 100%;
+  height: 2em;
+  padding: .5rem;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: rgb(43, 161, 161);
+  border: 1px solid #333333;
+  transition: all .2s ease-out;
+}
+.btn-primary:hover {
+  background-color: #333333;
+  color: #ffffff;
+}
+.btn-primary:active {
+  background:olive;
+}
+
+#timeCount {
+  text-align: center;
+  font-size: 3em;
+}
