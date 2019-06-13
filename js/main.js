@@ -55,7 +55,7 @@ function countDown() {
     min -= 1;
   }
   
-  if(min < 3) {
+  if(min < 1) {
     document.getElementsByClassName('bg-cal')[0].style.background = "url(../img/antique-classic-countdown-1095601.jpg) fixed no-repeat center/cover";
   }
   if(min < 0) {
