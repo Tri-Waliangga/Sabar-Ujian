@@ -10,7 +10,6 @@ body {
   background: url(../img/aerial-photography-aerial-shot-aerial-view-2407636.jpg) fixed no-repeat center/cover;
   width: 100vw;
   height: 100vh;
-  transition: all .6s ease-in-out;
 }
 
 .content {
