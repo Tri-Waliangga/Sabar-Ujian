@@ -41,7 +41,7 @@ function setJawaban(e) {
   }
 }
 
-  let min = 5;
+  let min = 1;
   let sec = 0;
 function countDown() {
   if(sec >= 0 && sec < 10) {
@@ -59,7 +59,10 @@ function countDown() {
     document.getElementsByClassName('bg-cal')[0].style.background = "url(../img/antique-classic-countdown-1095601.jpg) fixed no-repeat center";
   }
   if(min < 0) {
+    document.getElementsByClassName('text-content')[0].style.display = 'none';
+    coba.style.display = 'none';
     clearInterval(count);
+    alert('Waktu habis bye-bye...');
   }
   
 }let count = setInterval(countDown, 1000);
@@ -83,6 +86,7 @@ coba.addEventListener('click', function() {
     alert('Coba dulu, ayo isi. Ganti tanda tanyanya.')
   } else if(localStorage.getItem('jawaban') == '7') {
     alert('Wow! Jagoan ey. Good Job.');
+    clearInterval(count);
   } else {
     alert('Aho kah? Belajar lagi ya... jang/neng. ');
   };
