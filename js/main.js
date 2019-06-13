@@ -41,7 +41,7 @@ function setJawaban(e) {
   }
 }
 
-  let min = 1;
+  let min = 5;
   let sec = 0;
 function countDown() {
   if(sec >= 0 && sec < 10) {
